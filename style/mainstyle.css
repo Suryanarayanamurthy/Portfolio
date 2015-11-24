@@ -20,11 +20,12 @@ h6 {
   border-bottom: 1px outset rgba(192, 192, 192, 0.5);
   background: rgba(192, 192, 192, 0.9);
   box-shadow: 0px 1px rgba(0, 0, 0, 0.3);
-}
+    }
 
 .topnavbar ul.navbar-nav li a {
   background: rgba(28, 28, 28, 0.1);
   color: #000;
+    padding-right: 30px;
 }
 
 .topnavbar ul.navbar-nav li a:hover,
@@ -44,10 +45,6 @@ h6 {
   color: #000;
 }
 
-.about {
-  font-size: 18px;
-  font-weight: 400;
-}
 /*Header background*/
 
 .headstyle {
@@ -142,6 +139,17 @@ hr.separator {
 }
 /*section 2*/
 
+
+/*
+.about {
+  font-size: 18px;
+  font-weight: 400;
+
+}
+*/
+
+
+
 .aboutmesection {
   padding: 50px 0;
   background: url('https://scontent-frt3-1.xx.fbcdn.net/hphotos-xap1/v/t1.0-9/1521702_196776223859909_458135526_n.jpg?oh=a5c3503a40c5a774209476baab674a02&oe=56B9805B') no-repeat center center fixed;
@@ -149,10 +157,37 @@ hr.separator {
   height: 855px;
 }
 
+.jumbotron{
+
+    background-color:rgba(0,0,0,0.25); 
+}
+
+.aboutmesection p {
+  font-size: 23px;
+  /*font-weight: bold;*/
+    /*font-weight: 400;*/
+  /*color: #000;*/
+  color:    #000;
+    text-shadow: 1px 1px 2px #000000;
+    
+  
+  }
+
+
+.aboutmesection p a {
+  color: silver;
+  font-weight: bold;
+}
+
+.aboutmesection p .link{
+    color: blue;
+}
+
 .backgroundlayout2 {
   margin-top: -50px;
   background: rgba(255, 255, 255, 0.2);
   height: 855px;
+    
 }
 
 
@@ -175,16 +210,7 @@ h2.section-heading {
 }
 /*text*/
 
-.aboutmesection p {
-  font-size: 22px;
-  font-weight: bold;
-  color: #000;
-}
 
-.aboutmesection p a {
-  color: silver;
-  font-weight: bold;
-}
 
 
 
